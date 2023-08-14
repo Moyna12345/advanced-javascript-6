@@ -1,0 +1,26 @@
+.container{
+    margin-top: 300px;
+    margin-left: 350px;
+    
+}
+.f-group{
+    float: left;
+}
+.f-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'roboto';
+    font-weight: 500;
+}
+select{
+    border: 1px solid #ff0000;
+    height: 40px;
+    width: 200px;
+    padding: 0 15px;
+    margin-right: 20px;
+    background-color: rgb(195, 233, 180);
+}
+body{
+    font: center;
+    background-color: rgb(122, 233, 233);
+}
