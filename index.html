@@ -12,7 +12,7 @@
 
        <div class="f-group">
          <label for="">Country</label>
-         <select name="slct1" id="slct1" onchange="populate(this.id, 'slct2')">
+         <select name="slct1" id="slct1" onchange="populate(this.id,'slct2')">
             <option value=""> -- Choose Country -- </option>
             <option value="india">INDIA</option>
             <option value="america">AMERICA</option>
@@ -43,8 +43,7 @@
         }
         else if(s1.value == 'america')
         {
-            var optionArray = ['delhi|Delhi','mumbai|Mumbai','bangalore|Bangalore',
-            'hyderabad|Hyderabad'];
+            var optionArray = ['new york|New York','los angeles|Los Angeles','chicago|Chicago','houston|Houston'];
         }
 
         for(var option in optionArray)
